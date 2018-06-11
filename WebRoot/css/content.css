@@ -1,0 +1,102 @@
+.content{
+    position: absolute;
+    top: 250px;
+    left: 0px;
+    width: 100%;
+    height: 400px;
+    /*background-color: black;*/
+    overflow: hidden;
+}
+.div-title{
+    position: absolute;
+    top:0px;
+    left: 30px;
+}
+.showmore{
+    position: absolute;
+    top:0px;
+    right: 30px;
+    font-size: x-small;
+}
+.twopicture{
+position: absolute;
+    top: 680px;
+    left: 0px;
+    width: 100%;
+    height: 300px;
+    /*background-color: darkcyan;*/
+}
+.twopicture-left{
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    height:100%;
+    width: 40%;
+    /*background-color: #e1472f;*/
+    overflow: hidden;
+
+}
+.left-none{
+    position: absolute;
+    top: 0px;
+    left: 125px;
+    height:320px;
+    width: 420px;
+    border: 1px solid gainsboro;
+ }
+
+.twopicture-right{
+    position: absolute;
+    top: 0px;
+   right: 20px;
+    height:100%;
+    width: 40%;
+    /*background-color: darkviolet;*/
+    overflow: hidden;
+}
+
+.right-none{
+    position: absolute;
+    top: 0px;
+   right: 125px;
+    height:320px;
+    width: 420px;
+    border: 1px solid gainsboro;
+}
+.today-new{
+    position: absolute;
+    top: 1100px;
+     width:100%;
+    height: 380px;
+   /*background-color: red;*/
+}
+
+.new-one,.new-two,.new-three,.new-four{
+    position: absolute;
+    top:60px;
+    width: 250px;
+    height: 250px;
+    /*background-color: green;*/
+}
+.new-one{
+    left:30px;
+}
+
+.new-one:hover img,.new-two:hover img,.new-three:hover img,.new-four:hover img {
+    transform:scale(1.05);
+    -ms-transform:scale(1.05);
+    -moz-transform:scale(1.05);
+    -webkit-transform:scale(1.05);
+    -o-transform:scale(1.1);
+    -moz-box-shadow: 5px 5px 4px #888888;
+    box-shadow: 5px 5px 4px #888888;
+}
+.new-two{
+    left:350px;
+}
+.new-three{
+    right:350px;
+}
+.new-four{
+    right:30px;
+}

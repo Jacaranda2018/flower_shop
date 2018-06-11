@@ -1,0 +1,163 @@
+.makevip_big{
+    position: absolute;
+    top: 280px;
+    left: 50px;
+    width: 900px;
+    height: 580px;
+   /*background-color: #e1472f;*/
+    overflow: hidden;
+}
+.good_title{
+    position: absolute;
+    top: 60px;
+    left: 30px;
+    width: 800px;
+    height: 70px;
+    /*background: rgba(255, 251, 240, 0.5);*/
+    color: white;
+    overflow: hidden;
+}
+.good_one,.good_two,.good_three,.good_four{
+    position: absolute;
+    top: 70px;
+    left: 30px;
+    width: 800px;
+    height: 80px;
+    /*border:1px solid gray;*/
+    background: rgba(255, 251, 240, 0.5);
+    color: #2f2f2f;
+}
+.good_one{
+    top: 130px;
+}
+.good_two{
+    top: 230px;
+}
+.good_three{
+    top: 330px;
+}
+.good_four{
+    top: 430px;
+}
+
+.table{
+    width:800px;
+    margin: 10px 10px;
+}
+
+.table td{
+    width: 200px;
+}
+
+.table img{
+    width:60px;
+    height:60px;
+}
+.makevip_button{
+    position: absolute;
+    top:550px;
+    left: 50px;
+    width: 800px;
+    height: 50px;
+    text-align:center;
+    /*background-color: #1B9AF7;*/
+}
+input{
+    height:26px;
+    width:80px;
+    background-color:#333;
+    color:white;
+    border:none;
+    font-weight:100;
+}
+
+.hot_good,.hot_recom,.season{
+    position: absolute;
+    right: 60px;
+    width: 230px;
+    height: 360px;
+    text-align:center;
+    flow:hidden;
+}
+.hot_good{
+    top: 280px;
+}
+.hot_recom{
+    top: 680px;
+}
+.season{
+    top: 870px;
+}
+.hot_good_content,.hot_recom_content,.season_content{
+    position: absolute;
+    top: 60px;
+    background: rgba(255, 251, 240, 0.5);
+}
+
+.hot_table{
+    width:220px;
+    margin: 10px 10px;
+}
+
+.hot_table img{
+    width:50px;
+    height:50px;
+}
+
+.hot_table img:hover{
+    transform:scale(1.05);
+    -ms-transform:scale(1.25);
+    -moz-transform:scale(1.25);
+    -webkit-transform:scale(1.5);
+    -o-transform:scale(1.1);
+    -moz-box-shadow: 5px 5px 4px #888888;
+    box-shadow: 5px 5px 4px #888888;
+}
+.marque{
+    position: absolute;
+    left:20px;
+    top: 900px;
+    width: 850px;
+    height: 600px;
+    overflow: hidden;
+    text-align: center;
+}
+.marqueone,.marquetwo{
+    position: absolute;
+    left:20px;
+    width: 850px;
+    height: 190px;
+    background: rgba(255, 251, 240, 0.5);
+
+}
+
+.marqueone{
+    top: 60px;
+}
+.marquetwo{
+    top: 280px;
+}
+
+.marque img{
+    width: 150px;
+    height: 150px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.marque img:hover{
+    transform:scale(0.05);
+    -ms-transform:scale(0.5);
+    -moz-transform:scale(0.5);
+    -webkit-transform:scale(0.5);
+    -o-transform:scale(0.1);
+    -moz-box-shadow: 5px 5px 4px #888888;
+    box-shadow: 5px 5px 4px #888888;
+}
+
+
+.footext {
+    top: 1400px;
+}
+
+

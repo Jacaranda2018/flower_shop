@@ -1,0 +1,14 @@
+#Sun Jun 03 21:05:50 CST 2018
+eclipse.preferences.version=1
+encoding//WebRoot/WEB-INF/web.xml=gbk
+encoding//WebRoot/index.jsp=UTF-8
+encoding//WebRoot/js=UTF-8
+encoding//WebRoot/login.jsp=gbk
+encoding//WebRoot/lookCosmetic.jsp=gbk
+encoding//WebRoot/lookShoppingCar.jsp=gbk
+encoding//WebRoot/showDetail.jsp=gbk
+encoding//src/com/qimo/util/TimeUtil.java=UTF-8
+encoding//src/mybean/data/Login.java=gbk
+encoding//src/myservlet/control/HandleLogin.java=gbk
+encoding//src/myservlet/control/HandleRegister.java=gbk
+encoding/shop2.sql=UTF-8

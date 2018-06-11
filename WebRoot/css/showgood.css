@@ -1,0 +1,82 @@
+.showcontentpic{
+    position: absolute;
+    left: 150px;
+    top: 260px;
+    width: 1000px;
+    height: 300px;
+    /*background-color: cornflowerblue;*/
+    overflow: hidden;
+}
+.showgoodtext{
+    position: absolute;
+    left: 230px;
+    top: 570px;
+    width: 800px;
+    height: 80px;
+   /*background-color: cornflowerblue;*/
+    overflow: hidden;
+    font-size: small;
+}
+
+.goodsallone,.goodsalltwo,.goodsallthree{
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    font: 13px/20px Open Sans, Helvetica, Arial, sans-serif;
+    text-align: center;
+    /*background-color: cadetblue;*/
+}
+.goodsallone {
+    top: 700px;
+}
+.goodsalltwo{
+    top: 1050px;
+}
+.goodsallthree{
+    top: 1400px;
+}
+
+.goodallonethree,.goodallonetwo,.goodallonefour,.goodalloneone{
+    position: absolute;
+    top: 5px;
+    width:220px;
+    height: 220px;
+    /*background-color: darkblue;*/
+}
+
+.goodallonethree:hover img,.goodallonetwo:hover img,.goodallonefour:hover img,.goodalloneone:hover img{
+transform:scale(1.05);
+-ms-transform:scale(1.05);
+-moz-transform:scale(1.05);
+-webkit-transform:scale(1.05);
+-o-transform:scale(1.1);
+-moz-box-shadow: 5px 5px 4px #888888;
+box-shadow: 5px 5px 4px #888888;}
+
+.goodalloneone{
+    left: 50px;
+}
+.goodallonetwo{
+    left: 380px;
+}
+.goodallonethree{
+    right: 50px;
+}
+.goodallonefour{
+    right: 380px;
+}
+
+input{
+    height:26px;
+    width:80px;
+    background-color:#333;
+    color:white;
+    border:none;
+    font-weight:100;
+}
+
+.footext {
+    top: 1720px;
+}

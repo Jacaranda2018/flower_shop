@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<web-app>
+
+	<servlet>
+		<servlet-name>loginServlet</servlet-name>
+		<servlet-class>myservlet.control.HandleLogin</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>loginServlet</servlet-name>
+		<url-pattern>/loginServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>registerServlet</servlet-name>
+		<servlet-class>myservlet.control.HandleRegister</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>registerServlet</servlet-name>
+		<url-pattern>/registerServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>exitServlet</servlet-name>
+		<servlet-class>myservlet.control.HandleExit</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>exitServlet</servlet-name>
+		<url-pattern>/exitServlet</url-pattern>
+	</servlet-mapping>
+
+
+	<filter>
+		<filter-name>CodeFilter</filter-name>
+		<filter-class>com.qimo.util.CodeFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>CodeFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+
+</web-app>

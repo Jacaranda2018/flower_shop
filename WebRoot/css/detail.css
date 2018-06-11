@@ -1,0 +1,102 @@
+.detail_big{
+    position: absolute;
+    top: 280px;
+    left: 50px;
+    width: 900px;
+    height: 400px;
+  /*background-color: #e1472f;*/
+    overflow: hidden;
+}
+
+.detaildiv{
+    position: absolute;
+    top: 80px;
+    left: 0px;
+    width: 800px;
+    height: 500px;
+    background: rgba(255, 251, 240, 0.5);
+
+}
+.goodpicture{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 220px;
+    height: 220px;
+}
+.goodpicture img:hover{
+    transform: scale(1.3);
+    transition: all 1s ease 0s;
+    -webkit-transform: scale(1.3);
+
+}
+.gooddetail{
+    position: absolute;
+    top: 30px;
+    left: 350px;
+    width: 350px;
+    height: 280px;
+   /*background-color: #a49ef0;*/
+}
+.gooddetail table{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 350px;
+    height: 280px;
+    text-align: left;
+}
+
+input{
+    height:26px;
+    width:80px;
+    background-color:#333;
+    color:white;
+    border:none;
+    font-weight:100;
+}
+
+.hot_good{
+    position: absolute;
+    right: 100px;
+    width: 230px;
+    height: 360px;
+    text-align:center;
+    flow:hidden;
+}
+.hot_good{
+    top: 280px;
+}
+.hot_recom{
+    top: 680px;
+}
+
+.hot_good_content{
+    position: absolute;
+    top: 60px;
+    background: rgba(255, 251, 240, 0.5);
+}
+
+.hot_table{
+    width:220px;
+    margin: 10px 10px;
+}
+
+.hot_table img{
+    width:50px;
+    height:50px;
+}
+
+.hot_table img:hover{
+    transform:scale(1.05);
+    -ms-transform:scale(1.25);
+    -moz-transform:scale(1.25);
+    -webkit-transform:scale(1.5);
+    -o-transform:scale(1.1);
+    -moz-box-shadow: 5px 5px 4px #888888;
+    box-shadow: 5px 5px 4px #888888;
+}
+
+.footext {
+    top: 700px;
+}

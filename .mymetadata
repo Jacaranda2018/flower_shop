@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="qimo"
+  id="myeclipse.1512462298161"
+  context-root="/qimo"
+  j2ee-spec="5.0"
+  archive="qimo.war">
+  <attributes>
+    <attribute name="webrootdir" value="/WebRoot" />
+  </attributes>
+</project-module>
+

@@ -1,0 +1,107 @@
+.head-top{
+    position: absolute;
+    left: 0px;
+    top:0px;
+    width: 1280px;
+    height: 40px;
+    overflow: hidden;
+    /*background-color:#E0E0E0;*/
+}
+.icon-time{
+    /*时间的logo*/
+    position: absolute;
+    left: 5px;
+    top: 8px;
+}
+.head-time{
+    position: absolute;
+    left: 25px;
+    top: 7px;
+    width: 200px;
+    font: 12px/20px Open Sans, Helvetica, Arial, sans-serif;
+    /*background-color: blue;*/
+}
+.head-welcome{
+    position: absolute;
+    top: 7px;
+    left:230px;
+    width: 240px;
+    font: 13px/20px Open Sans, Helvetica, Arial, sans-serif;
+    /*background-color: aqua;*/
+}
+.icon{
+    width: 30px;
+    height: 30px;
+    margin: 0px 5px;
+}
+.right-but{
+    position: absolute;
+    left: 1100px;
+    top: 5px;
+    width: 150px;
+    /*background-color: blue;*/
+}
+.head-title{
+    position: absolute;
+    left: 0px;
+    top: 40px;
+    width: 100%;
+    height: 200px;
+    /*background-color: indigo;*/
+    background-image: url("../image/bg1.jpg");
+}
+.logo{
+    position: absolute;
+    left:400px;
+    top: 0px;
+    width: 120px;
+    height: 60px;
+    /*background-color: aqua;*/
+}
+.head-navigation{
+    position: absolute;
+    overflow: hidden;
+    top: 150px;
+    width: 100%;
+    height: 40px;
+    color: white;
+    /*background-color: brown;*/
+
+
+}
+.nav li{
+    float: left;
+    margin: 0px 30px;
+   list-style-type: none;
+    color: white;
+}
+
+/*a:link 指正常的未被访问过的链接；*/
+ /*　　a:active 指正在点的链接；*/
+ /*　　a:hover 指鼠标在链接上；*/
+ /*　　a:visited 指已经访问过的链接；*/
+ a:link {
+  color: white;
+     /*text-decoration: none;*/
+
+}
+ a:active{
+    color: bisque;
+}
+ a:hover{
+     color: bisque;
+ }
+
+ a:visited{
+     color: white;
+ }
+
+.footext {
+    position: absolute;
+    left: 30px;
+    height: 30px;
+    width: 900px;
+    text-align: center;
+    font-size: xx-small;
+    /*background-color: #e1472f;*/
+}

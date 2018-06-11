@@ -1,0 +1,37 @@
+<%@ page contentType="text/html;charset=GB2312" %>
+
+<div class="head-top">
+    <div class="icon-time">
+        <img  src="./icon/time.png" width="20px" height="20px">
+    </div>
+    <div class="head-time">
+        营业时间 08:30~21:30
+    </div>
+    <div class="head-welcome">
+        欢迎光临卖花的小女孩在线花店
+    </div>
+    <div class="right-but">
+        <a href="lookShoppingCar.jsp" ><img class="icon" src="./icon/shopping.png"></a>
+        <a href="information.jsp" > <img class="icon" src="./icon/people.png"></a>
+    </div>
+</div>
+
+<!--div head-title 放logo和导航-->
+<div class="head-title">
+    <div class="logo">
+        <img src="./image/logo11.JPG" width="300px" height="180px">
+    </div>
+    <div class="head-navigation">
+        <ul class="nav">
+            <li><a href="index.jsp"><img  src="./icon/flower.png" width="20px" height="20px">我的首页</a></li>
+            <li><a href="lookCosmetic.jsp"><img  src="./icon/flower.png" width="20px" height="20px">浏览花品</a></li>
+            <li><a href="lookShoppingCar.jsp"><img  src="./icon/flower.png" width="20px" height="20px">我的购物车</a></li>
+            <li><a href="lookOrderForm.jsp"><img  src="./icon/flower.png" width="20px" height="20px">我的订单</a></li>
+            <li><a href="makeVIP.jsp"><img  src="./icon/flower.png" width="20px" height="20px">我要定制</a></li>
+            <li><a href="myVIP.jsp"><img  src="./icon/flower.png" width="20px" height="20px">我的VIP定制</a></li>
+            <li><a href="login.jsp"><img  src="./icon/flower.png" width="20px" height="20px">登录</a></li>
+            <li><a href="inputRegisterMess.jsp"><img  src="./icon/flower.png" width="20px" height="20px">注册</a></li>
+            <li><a href="exitServlet"><img  src="./icon/flower.png" width="20px" height="20px">退出</a></li>
+        </ul>
+    </div>
+</div>
